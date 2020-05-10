@@ -58,3 +58,6 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+Assets/TextMesh Pro/Examples & Extras/*
+test_Data/*
+Assets/YarnSpinner/Examples/*

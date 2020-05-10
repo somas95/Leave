@@ -1,7 +1,7 @@
 title: StoryTitle
 tags: 
 colorID: 0
-position: -1231,9981
+position: -512,14432
 ---
 Leave by the front door Final
 
@@ -9,7 +9,7 @@ Leave by the front door Final
 title: StoryData
 tags: 
 colorID: 0
-position: -1146,9599
+position: -427,14050
 ---
 {"ifid": "1D63A179-CE8F-4A66-B6CF-BF3D4280AC99",
 "format": "Harlowe",
@@ -21,30 +21,31 @@ position: -1146,9599
 
 ===
 title: Start
-tags: 
+tags: test1
 colorID: 6
-position: 451,5716
+position: 1170,10167
 ---
+<<setsprite Background cocina>> 
 -Él: ¡Vaya un nuevo restaurante de comida china qué rico!Tengo que limpiar la cocina y un poco los baños. Es pronto y aun no volverá de trabajar... Puedo jugar a videojuegos también mientras... Aunque debería buscar trabajo...
 
  [[Jugar a videojuegos|Jugar_a_videojuegos]]
  [[Seguir mirando el móvil|Seguir_mirando_el_móvil]]
-[[Ir a la oficina|Ir_a_la_oficina]]
+ [[Ir a la oficina|Ir_a_la_oficina]]
 
 ===
 title: Jugar_a_videojuegos
 tags: 
 colorID: 0
-position: 890,6541
+position: 1609,10992
 ---
 -Él: Ow god llevo aquí tres horas. Dios ya son las 13:30
 [[13_30]]
 
 ===
 title: Seguir_mirando_el_móvil
-tags: 
+tags: test2
 colorID: 0
-position: 563,6454
+position: 1282,10905
 ---
 -Él: Nopuedeser ya son las 13:30
 [[13_30]]
@@ -53,21 +54,22 @@ position: 563,6454
 title: Ir_a_la_oficina
 tags: pensamiento
 colorID: 0
-position: -51,6122
+position: 668,10573
 ---
 Espera
 -> Con el móvil
     Pues aquí con el culo al aire mirando twitter. Se me han hecho las 13:30!
 -> Sin el móvil
-    //Suavidad y cuidado para toda la familia. Con extractos de frutas del Mediterráneo...// Bla blah blah... //Uso: vierta en mano o esponja. añada agua...//Ostras tu pero si ya son las 13:30, ¡hostia nano!
+    Suavidad y cuidado para toda la familia. Con extractos de frutas del Mediterráneo...// Bla blah blah... //Uso: vierta en mano o esponja. añada agua...//Ostras tu pero si ya son las 13:30, ¡hostia nano!
 [[ 13_30 ]] 
 
 ===
 title: 13_30
 tags: pensamiento
 colorID: 0
-position: 722,7058
+position: 1441,11509
 ---
+<<setsprite Background oficina>> 
 Puff la fregada de ayer aun sigue ahí y están ahí todas las sartenes. La jefa me va a matar...
 [[Dejar que te mate la jefa|Dejar_que_te_mate_la_jefa]]
 [[Fregar los platos|Fregar_los_platos]]
@@ -78,7 +80,7 @@ Puff la fregada de ayer aun sigue ahí y están ahí todas las sartenes. La jefa
 title: Dejar_que_te_mate_la_jefa
 tags: pensamiento
 colorID: 0
-position: 937,7309
+position: 1656,11760
 ---
 Voy a calentar el tupper de ayer, que lo que cocinó no estaba tan malo, aunque le faltaba un poco de **perejil**
 [[tupper|tupper]]
@@ -87,7 +89,7 @@ Voy a calentar el tupper de ayer, que lo que cocinó no estaba tan malo, aunque 
 title: Fregar_los_platos
 tags: pensamiento
 colorID: 0
-position: 1217,7027
+position: 1936,11478
 ---
 Sí claro acordamos que yo cocinaba y ella fregaba. Ya tengo suficiente con lo mío.
 [[Dejar que te mate la jefa|Dejar_que_te_mate_la_jefa]]
@@ -97,7 +99,7 @@ Sí claro acordamos que yo cocinaba y ella fregaba. Ya tengo suficiente con lo m
 title: Calentar_las_sobras_de_la_comida_de_ayer
 tags: pensamiento
 colorID: 0
-position: 350,7364
+position: 1069,11815
 ---
 Bueno, lo que hizo ella tampoco estaba tan mal. Aunque yo le hubiese echado un poco más de **perejil**. El próximo día se lo llevo.
 [[tupper|tupper]]
@@ -107,7 +109,7 @@ Bueno, lo que hizo ella tampoco estaba tan mal. Aunque yo le hubiese echado un p
 title: tupper
 tags: pensamiento
 colorID: 0
-position: 789,7734
+position: 1508,12185
 ---
 [[La nevera está vacía|La_nevera_está_vacía]]
 
@@ -115,7 +117,7 @@ position: 789,7734
 title: La_nevera_está_vacía
 tags: 
 colorID: 0
-position: 812,7992
+position: 1531,12443
 ---
 Mierda. Pues no sé. Voy a hacer un par de y arreando.
 [[sandwichesess|sandwichesess]]
@@ -124,7 +126,7 @@ Mierda. Pues no sé. Voy a hacer un par de y arreando.
 title: sandwichesess
 tags: pensamiento
 colorID: 0
-position: 788,8247
+position: 1507,12698
 ---
 Mmm.. 
 [[la nevera sigue estando vacía|la_nevera_sigue_estando_vacía]]
@@ -133,7 +135,7 @@ Mmm..
 title: la_nevera_sigue_estando_vacía
 tags: pensamiento
 colorID: 0
-position: 787,8489
+position: 1506,12940
 ---
 Bueno pues un poco de pan con aceite y sal que ayer comimos demasiado.
 [[pan|pan]]
@@ -142,7 +144,7 @@ Bueno pues un poco de pan con aceite y sal que ayer comimos demasiado.
 title: pan
 tags: pensamiento
 colorID: 0
-position: 805,8782
+position: 1524,13233
 ---
 [[No hay nada en la puta cocina|No_hay_nada_en_la_puta_cocina]]
 
@@ -150,7 +152,7 @@ position: 805,8782
 title: No_hay_nada_en_la_puta_cocina
 tags: pensamiento
 colorID: 0
-position: 801,9067
+position: 1520,13518
 ---
 Vaya pues nada, pues voy a mirar en la nevera, a ver si hay algo congelado...
 [[mirar en la nevera|mirar_en_la_nevera]]
@@ -159,7 +161,7 @@ Vaya pues nada, pues voy a mirar en la nevera, a ver si hay algo congelado...
 title: mirar_en_la_nevera
 tags: pensamiento
 colorID: 0
-position: 819,9339
+position: 1538,13790
 ---
 En la puerta hay una lista de la compra.
 [[lista|lista]]
@@ -168,7 +170,7 @@ En la puerta hay una lista de la compra.
 title: lista
 tags: pensamiento ilustracion-lista-de-la-compra
 colorID: 0
-position: 835,9683
+position: 1554,14134
 ---
 Compra-Pan
 -Huevos
@@ -190,7 +192,7 @@ Con mucho amor tu [[churrri|churrri]], gracias por encargarte de estas tareas
 title: Pepinillos
 tags: 
 colorID: 0
-position: 1235,10304
+position: 1954,14755
 ---
 Ugg... Qué asco.
 
@@ -198,7 +200,7 @@ Ugg... Qué asco.
 title: Harina
 tags: 
 colorID: 0
-position: 907,10273
+position: 1626,14724
 ---
 ¿Me van a hacer un pastel o algo?
 
@@ -206,7 +208,7 @@ position: 907,10273
 title: churrri
 tags: 
 colorID: 0
-position: 1575,10369
+position: 2294,14820
 ---
 Se escribe con dos //rr// pero vale.
 
@@ -214,7 +216,7 @@ Se escribe con dos //rr// pero vale.
 title: 14_30
 tags: 
 colorID: 0
-position: 494,10320
+position: 1213,14771
 ---
 -Ella: ¡Hola cariño tengo una noticia súper buena![[Decirle que no hay nada en la nevera|Decirle_que_no_hay_nada_en_la_nevera]]
 [[Contarle lo que has hecho esta mañana|Contarle_lo_que_has_hecho_esta_mañana]]
@@ -226,7 +228,7 @@ position: 494,10320
 title: Decirle_que_no_hay_nada_en_la_nevera
 tags: 
 colorID: 0
-position: 111,10573
+position: 830,15024
 ---
 Y que no has hecho la compra-Él: te prometo que cambiaré.
 
@@ -237,7 +239,7 @@ Y que no has hecho la compra-Él: te prometo que cambiaré.
 title: Contarle_lo_que_has_hecho_esta_mañana
 tags: 
 colorID: 0
-position: 1445,11542
+position: 2164,15993
 ---
 Hoy he descubierto que los hombres tienen papilas gustativas en el perineo y que somos incapaces de levantar una silla... ¡Ui! ¿Qué me decías sobre la noticia?Ella: //con una cara en plan whaat// Emmm… Que he salido. Mira.
 
@@ -249,7 +251,7 @@ Hoy he descubierto que los hombres tienen papilas gustativas en el perineo y que
 title: Silencio
 tags: 
 colorID: 0
-position: 2,11658
+position: 721,16109
 ---
 Ella: ¿Oye estás bien?[[Mirar el móvil|Mirar_el_móvil]]
 [[Irme de la estancia|Irme_de_la_estancia]]
@@ -260,7 +262,7 @@ Ella: ¿Oye estás bien?[[Mirar el móvil|Mirar_el_móvil]]
 title: Escucharla,_why_not
 tags: 
 colorID: 0
-position: 1306,10608
+position: 2025,15059
 ---
 -Él: Sí, bueno... Dime.-Ella: han publicado mi ascenso en el periódico
 -ÉL: ¿En cuál?
@@ -275,7 +277,7 @@ position: 1306,10608
 title: No_me_lo_creo,_a_ver...
 tags: 
 colorID: 0
-position: 2111,11188
+position: 2830,15639
 ---
 Es imposible, si acabas de entrar.[[mirar la noticia|mirar_la_noticia]]
 
@@ -284,7 +286,7 @@ Es imposible, si acabas de entrar.[[mirar la noticia|mirar_la_noticia]]
 title: Imposible._No_puede_ser_¿Estás_segura?
 tags: 
 colorID: 0
-position: 1302,11026
+position: 2021,15477
 ---
 -Él: te inventas unas cosas. Acabas de entrar.-Ella: Mira y alucina.
 [[mirar la noticia|mirar_la_noticia]]
@@ -295,7 +297,7 @@ position: 1302,11026
 title: No_me_apetece_ahora,_luego_si_eso
 tags: 
 colorID: 0
-position: 1057,11603
+position: 1776,16054
 ---
 -Ella: Tío que es solo un segundo, no me jodas-Ella: //inspira hondo y mira hacia otro lado// Bueno..., ¿ya has hecho la comida?
 tengo mucha hambre
@@ -309,7 +311,7 @@ tengo mucha hambre
 title: A_ver_cómo_te_lo_explico
 tags: 
 colorID: 0
-position: 1240,12435
+position: 1959,16886
 ---
 Él: he tenido mucho lío esta mañana en la oficina y ha sido imposible.Ella: //le mira extrañada// ¿pero tienes trabajo desde cuando?
 [[Desde esta mañana. Me han llamado|Desde_esta_mañana._Me_han_llamado]]
@@ -319,7 +321,7 @@ position: 1240,12435
 title: Mentir
 tags: 
 colorID: 0
-position: 784,11758
+position: 1503,16209
 ---
 -Él: Se me ha 
 [[Quemado|Quemado]]
@@ -330,7 +332,7 @@ position: 784,11758
 title: Iba_a_pedir_comida_ahora_en_un_rato
 tags: 
 colorID: 0
-position: 2226,13371
+position: 2945,17822
 ---
 -Ella: ¿Teniendo comida en la nevera?-Él: No hay.
 -Ella: ¿No has ido a comprar?
@@ -346,7 +348,7 @@ position: 2226,13371
 title: Irme_de_la_estancia
 tags: 
 colorID: 0
-position: 215,12303
+position: 934,16754
 ---
 [[Dar un gruñido|Dar_un_gruñido]]
 [[Dar un portazo|Dar_un_portazo]]
@@ -357,7 +359,7 @@ position: 215,12303
 title: Déjame_en_paz
 tags: 
 colorID: 0
-position: 320,11861
+position: 1039,16312
 ---
 -Ella: ¿Oye te pasa algo?-Él: ¿Te crees mejor que yo?
 -Ella: ¿A qué viene eso?
@@ -369,7 +371,7 @@ position: 320,11861
 title: Pereza...
 tags: 
 colorID: 0
-position: 867,11133
+position: 1586,15584
 ---
 -Ella: Tío que es solo un segundo, no me jodas[[No me apetece ahora, luego si eso|No_me_apetece_ahora,_luego_si_eso]]
 
@@ -378,7 +380,7 @@ position: 867,11133
 title: mirar_la_noticia
 tags: 
 colorID: 0
-position: 2381,11758
+position: 3100,16209
 ---
 //Se ve ella en una noticia de la primera plana del periódico digital. Entre las noticias la mayoría de los periodistas son varones, ella aparece en una de las pequeñitas el título es **Tan bella como competente** el sunbtítulo es **La adquisición de la policía** (buscar un cargo público o algo)A los lados anuncios de estética, maquillaje con chicas super guapas o anuncios machistas//
 
@@ -391,7 +393,7 @@ position: 2381,11758
 title: pedir_comida
 tags: 
 colorID: 0
-position: 1382,11783
+position: 2101,16234
 ---
 -ÉL: ¿Vamos a pedir algo me estoy muriendo de hambre?-Ella: Espera, ¿no te encargabas tú hoy de la comida?
 
@@ -404,7 +406,7 @@ position: 1382,11783
 title: Si_ya_pero_es_que_me_apetece
 tags: 
 colorID: 0
-position: 1673,12879
+position: 2392,17330
 ---
 -Ella abre un armario para hacerse algo para comer.-Ella: ¿No has ido a comprar?
 -Él:
@@ -418,7 +420,7 @@ position: 1673,12879
 title: Otro_silencio
 tags: 
 colorID: 0
-position: 969,12470
+position: 1688,16921
 ---
 -Ella: ¿Te pasa algo?
 Se va a hacer la comida, pero al ver que no hay nada se te queda mirando. Tú sigues mirando el móvil.
@@ -431,7 +433,7 @@ Se va de la estancia se siente confusa y no entiende nada. Esto lo va a recordar
 title: Desde_esta_mañana._Me_han_llamado
 tags: 
 colorID: 0
-position: 1224,12799
+position: 1943,17250
 ---
 [[Pedimos chino finalente y lo celebramos|Pedimos_chino_finalente_y_lo_celebramos]]
 
@@ -439,7 +441,7 @@ position: 1224,12799
 title: Pedimos_chino_finalente_y_lo_celebramos
 tags: 
 colorID: 0
-position: 1201,13253
+position: 1920,17704
 ---
 -Ella: ¿Por qué me mientes?-Él: ¡Pero qué dices loca si no miento no me grites!
 -Ella: No te estoy gritando
@@ -467,7 +469,7 @@ Ella: Siiiiiii!!
 title: Quemado
 tags: 
 colorID: 0
-position: 714,12176
+position: 1433,16627
 ---
 -Ella: Está todo aun por fregar
 -ÉL: Bueno vale.
@@ -487,7 +489,7 @@ position: 714,12176
 title: Bueno_es_que_eres_una_chica_muy_guapa,_es_normal
 tags: 
 colorID: 0
-position: 1772,11923
+position: 2491,16374
 ---
 -Ella: No sé, es como que le diesen más importancia a eso que al ascenso.-Él: Bah. Tonterías, eso no le des importancia.
 -Ella: No me mola.
@@ -502,7 +504,7 @@ position: 1772,11923
 title: bueno_tampoco_te_crezcas_que_eres_la_oficial_segunda
 tags: 
 colorID: 0
-position: 2462,12560
+position: 3181,17011
 ---
 -Ella:... Tú lo has dicho, acabo de entrar.-ÉL: Bueno ya llevas unos cuantos meses.
 -Ella: Mes y medio.
@@ -517,7 +519,7 @@ position: 2462,12560
 title: Si_ya_sabes_que_me_alegro
 tags: 
 colorID: 0
-position: 2272,12877
+position: 2991,17328
 ---
 Ella: ¿Me puedes felicitar?Él: Felicidades
 
@@ -528,7 +530,7 @@ Ella: ¿Me puedes felicitar?Él: Felicidades
 title: Vamos_a_pedir_chino
 tags: 
 colorID: 0
-position: 2656,13079
+position: 3375,17530
 ---
 [[Iba a pedir comida ahora en un rato|Iba_a_pedir_comida_ahora_en_un_rato]]
 
@@ -536,7 +538,7 @@ position: 2656,13079
 title: en_caso_de_no_contestar_01
 tags: 
 colorID: 0
-position: -712,9609
+position: 7,14060
 ---
 Double-click this passage to edit it.
 
@@ -544,7 +546,7 @@ Double-click this passage to edit it.
 title: Mirar_el_móvil
 tags: 
 colorID: 0
-position: -264,11905
+position: 455,16356
 ---
 Ella: ¿Oye pero qué te pasa?
 [[Seguir mirando el móbil _02|Seguir_mirando_el_móbil__02]]
@@ -555,7 +557,7 @@ Ella: ¿Oye pero qué te pasa?
 title: Dar_un_gruñido
 tags: 
 colorID: 0
-position: 175,12549
+position: 894,17000
 ---
 Está confusa y cansada. Ella decide darte espacio para que te calmes.[[Final Silencio|Final_Silencio]]
 
@@ -564,7 +566,7 @@ Está confusa y cansada. Ella decide darte espacio para que te calmes.[[Final Si
 title: Dar_un_portazo
 tags: 
 colorID: 0
-position: 550,12370
+position: 1269,16821
 ---
 Se ha asustado y no entiende qué pasa. Empieza a tenerte miedo. Ella cree que eres una persona cariñosa y no entiende esta reacción.
 [[Final Silencio|Final_Silencio]]
@@ -574,7 +576,7 @@ Se ha asustado y no entiende qué pasa. Empieza a tenerte miedo. Ella cree que e
 title: te_crees_mejor_que_yo?
 tags: 
 colorID: 0
-position: 389,12595
+position: 1108,17046
 ---
 Está confusa y empieza a creer que eres imbécil. Lo que has hecho le ha dolido y lo recordará.[[Final Silencio|Final_Silencio]]
 
@@ -583,7 +585,7 @@ Está confusa y empieza a creer que eres imbécil. Lo que has hecho le ha dolido
 title: Seguir_mirando_el_móbil__02
 tags: 
 colorID: 0
-position: -300,12266
+position: 419,16717
 ---
 -ÉL: ¿Oye compramos chino? (lo dice mientras mira el móvil)-Ella: No entiendo nada, si no querías que te contase algo me lo podrías decir.
 -ÉL: (sigue mirando el móvil) ¡Ehhh! tengo descuento, ¿pido el cerdo agridulce, sopa tú?
@@ -598,7 +600,7 @@ position: -300,12266
 title: Final_Silencio
 tags: 
 colorID: 0
-position: 740,13017
+position: 1459,17468
 ---
 Te has ido cabreado porque pensabas que ella te iba a echar la bronca por no hacer nada.Tienes miedo a que te riña o te deje.
 
@@ -611,7 +613,7 @@ La relación se vuelve fría y tensa, tu compañera podría llegar a ser una ext
 title: Seguirla
 tags: pensamiento
 colorID: 0
-position: -152,13196
+position: 567,17647
 ---
 [[Hacer como si nada hubiese pasado y hablarle normal|Hacer_como_si_nada_hubiese_pasado_y_hablarle_normal]]
 [[Pero a ver, ¿qué te pasa? ¿Te ha bajado la regla?|Pero_a_ver,_¿qué_te_pasa?_¿Te_ha_bajado_la_regla?]]
@@ -620,7 +622,7 @@ position: -152,13196
 title: Pedir_para_ti_y_comer
 tags: 
 colorID: 0
-position: 21,12769
+position: 740,17220
 ---
 Ella no entiende tus reacciones, te considera alguien cálido.
 Tú te has librado de la bronca, enhorabuena.
@@ -635,7 +637,7 @@ Recordará tus pasotismos y serás más propenso a usarlos. Hay una pequeña pos
 title: Hacer_como_si_nada_hubiese_pasado_y_hablarle_normal
 tags: 
 colorID: 0
-position: -131,13493
+position: 588,17944
 ---
 -Él: Mira han abierto un nuevo restaurante de comida china. Le enseña el móvil.-Ella: Por qué no has hecho lo que acordamos ayer. Estoy hasta arriba de trabajo.
 -Él: ¿El qué?
@@ -657,7 +659,7 @@ position: -131,13493
 title: Pero_a_ver,_¿qué_te_pasa?_¿Te_ha_bajado_la_regla?
 tags: cambio-escena salon
 colorID: 0
-position: 477,13509
+position: 1196,17960
 ---
 -Ella: Estoy, bien solo quería decirte que me han ascendido.-Él: ¿En serio?
 -Ella: Sí. Claro.
@@ -677,7 +679,7 @@ Ella se siente culpable por haber estallado. Has quedado de pta madre. Y lo mejo
 title: Decir_que_se_te_ha_olvidado
 tags: 
 colorID: 0
-position: 1853,13236
+position: 2572,17687
 ---
 Él: Se me ha olvidado.-Ella: Hablamos ayer de esto. Te escribí yo misma la lista.
 Él: Ya… Pero es que entre unas cosas y otras se me ha ido.
@@ -697,7 +699,7 @@ Genial imbécil, ahora ella se siente culpable por haber reñido contigo y tú e
 title: Voy_mañana
 tags: 
 colorID: 0
-position: 1480,13166
+position: 2199,17617
 ---
 -Ella: (Inspira fuertemente para calmarse)-Él: ¿Estás bien? ¿Te ha bajado la regla?
 -Ella: ¡NO, NO ME HA BAJADO LA PUTA REGLA!
@@ -714,7 +716,7 @@ position: 1480,13166
 title: Final_Pedir_Comida
 tags: 
 colorID: 0
-position: 1150,13736
+position: 1869,18187
 ---
 Sea como fuere te has salido con la tuya.
 
@@ -722,7 +724,7 @@ Sea como fuere te has salido con la tuya.
 title: Final_Llamada
 tags: 
 colorID: 0
-position: -133,13742
+position: 586,18193
 ---
 Ella llama a su amiga para comentarle lo que pasa. Puede darse que ella te deje porque tiene a alguien que la apoye y le ayude a ver lo que está sucediendo. Tú mientras tanto sigues a tu bola y de momento no ves como enemiga a su mejor amiga. No te preocupas, todo ha salido como querías y sin mentir. Has tenido suerte por ahora.
 
@@ -730,7 +732,7 @@ Ella llama a su amiga para comentarle lo que pasa. Puede darse que ella te deje 
 title: Final_Sinceridad
 tags: 
 colorID: 0
-position: -198,10782
+position: 521,15233
 ---
 Te ha echado la bronca, pero le has dicho la verdad. A ver como lo compensas ahora o qué haces con tus actos a partir de ahora.
 
@@ -739,35 +741,35 @@ Te ha echado la bronca, pero le has dicho la verdad. A ver como lo compensas aho
 title: Node277
 tags: 
 colorID: 0
-position: -815,9946
+position: -96,14397
 ---
 Empty Text
 ===
 title: Node280
 tags: 
 colorID: 0
-position: -978,10309
+position: -259,14760
 ---
 Empty Text
 ===
 title: Node281
 tags: 
 colorID: 0
-position: -1027,10737
+position: -308,15188
 ---
 Empty Text
 ===
 title: Node350
 tags: 
 colorID: 0
-position: -686,10525
+position: 33,14976
 ---
 Empty Text
 ===
 title: Node351
 tags: 
 colorID: 0
-position: -1596,10970
+position: -877,15421
 ---
 Empty Text
 ===
